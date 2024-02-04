@@ -1,26 +1,10 @@
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-      
-title:  "Hello World"
-excerpt: "First Blog Post"
+---
+layout: post
+title:  "Welcome to Jekyll!"
+---
 
-categories:
-  - Blog
-tags:
-  - [Blog, jekyll, Github, Git]
+# Welcome
 
-toc: true
-toc_sticky: true
- 
-date: 2024-02-04
-last_modified_at: 2024-02-04
+**Hello world**, this is my first Jekyll blog post.
+
+I hope you like it!
